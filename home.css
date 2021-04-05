@@ -18,8 +18,12 @@ h3 {
   text-align: center;
 }
 
+p {
+  font-family: 'Montserrat';
+  font-size: 15px;
+}
+
 a {
-  background-color: #47cf73;
   padding: 10px 5px;
   width: 305px;
   border: 3px solid transparent;
@@ -30,11 +34,27 @@ a {
   font-size: 16px;
   text-decoration: none;
   text-align: center;
+  margin: 10px;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+.primary-btn {
+  background-color: #47cf73;
+}
+
+.primary-btn:hover {
   background-color: #248c46;
+}
+
+.second-btn {
+  background-color:  #55acee;
+}
+
+.second-btn:hover {
+  background-color: #3C93D5;
 }
 
 @media (max-width:500px){

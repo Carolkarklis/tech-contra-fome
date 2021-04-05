@@ -1,0 +1,48 @@
+.landing-section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Lato';
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  padding: 5px 260px;
+  text-align: center;
+}
+
+a {
+  background-color: #47cf73;
+  padding: 10px 5px;
+  width: 305px;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #248c46;
+}
+
+@media (max-width:500px){
+  h1 {
+    font-size: 30px;
+  }
+
+  h3 {
+    padding: 10px;
+  }
+}
